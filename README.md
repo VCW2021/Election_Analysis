@@ -1,20 +1,32 @@
-The written analysis has the following:
+PyPoll Challenge
 
-Overview of Election Audit
+Overview of Election Audit:
+The purpose of this election analysis audit is to find out which county is the largest based off of votes. In module 3 we learned how to read and use csv files in python and run the data we got to get a result. The data file has 4 differeng sections, when searching through the date information of all of the candidates came up with many votes for each candidate had recieved. The result was than writen in a text file. 
 
-Finding out voting information for each county using Python
+Election audit results:
+After the code is finished there is a total of 369,711 votes between 3 counties, Jefferson county had 10.5% of the vote with 38,855 total votes, Denver had 82.8% of the vote with 306,055 total ballots submitted, Arapahoe had 6.7% of the total vote with 24,801 ballots submitted, Denver had the most amount of votes in the county by commiting 82.8% of the ballots. When looking at Candidate,  Charles Casper Stockham(85,213/23%). Diana DeGette(272,892/73.8%), Raymon Anthony Doane(11,606/3.1%), Diana DeGette won the election recieving 272,892 total votes which was 73.8% of the total votes submitted.
 
-#Purpose of the election audit
+Election Results
+-------------------------
+Total Votes: 369,711
+-------------------------
 
-The purpose of this proje ct is to find out which county is the largest based off of votes. In module 3 we learned how to read csv files in python and begin to run the data with our coding skills. The data file has 4 columns, we had to search through the one that had all of the candidates and figure out how many votes each candidate recieved. Once we figure out the total votes and percentage of the total that they had we wrote the results to a text file with a winner. In the module 3 challenge we are doing something similar but different. This time we will search through the counties column to figure out the total votes and percentage of each county to find which county is the largest.
+County Votes:
+Jefferson: 10.5% (38,855) 
+Denver: 82.8% (306,055) 
+Arapahoe: 6.7% (24,801) 
+-------------------------
+Winner: Denver
+Winning Vote Count: 306,055
+Winning Percentage: 82.8%
+-------------------------
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
+-------------------------
+Winner: 
+Winning Vote Count: 306,055
+Winning Percentage: 82.8%
 
-#Election audit results #By County -After the code is finished we are able to find that there is a total of 369,711 votes between 3 counties. -Jefferson county had 10.5% of the vote with 38,855 total votes -Denver had 82.8% of the vote with 306,055 total ballots submitted -Arapahoe had 6.7% of the total vote with 24,801 ballots submitted -Denver had the most amount of votes in the county by commiting 82.8% of the ballots #By Candidate -Charles Casper Stockham(85,213/23%) -Diana DeGette(272,892/73.8%) -Raymon Anthony Doane(11,606/3.1%) -Diana DeGette won the election recieving 272,892 total votes which was 73.8% of the total votes submitted.
-The purpose of this election analysis audit is well defined.
-Election Audit Results
-
-There is a bulleted list where each election outcome is addressed. 
-Election Audit Summary
-
-
-There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. 
-
+Election Audit Summary:
+Looking at  the results our script shows effectivly how to find vote counts, percentage of votes won by each county and candidate were good and even greater assuming we could figure out what the percentages of each county voted for each candidate. If we add an if statement unnder line 76 that could give us more on what counties voted for who. Because this could gives us a bigger picture of counties or even states if the data was different, this is something we could possibly use in the future.
